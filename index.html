@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Portfolio</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            position: relative;
+            background-color: #f8f9fa;
+        }
+        .modal img{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-top: -70x;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar {
+            background-color: #0056b3;
+        }
+        .navbar .navbar-brand {
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+        .navbar .navbar-brand:hover {
+            color: #d9ecff;
+        }
+        .navbar-nav .nav-link {
+            color: #ffffff;
+            font-weight: 500;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #d9ecff;
+        }
+        #home {
+            background: linear-gradient(135deg, #0056b3, #007bff);
+            color: white;
+            padding: 100px 0;
+        }
+        #home h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        #home p {
+            font-size: 1.25rem;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .modal footer{
+            margin: auto;
+            border-radius: 20px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .container img{
+
+            width: 1000px;
+            height: 250px;
+            margin-top: 20px;
+            margin-bottom: 25px;  
+        }
+        #team {
+            background-color: #ffffff;
+            padding: 60px 0;
+        }
+        #team h2 {
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .team-card {
+            background-color: white;
+            border: none;
+            border-radius: 8px;
+            margin-top: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .team-card img {
+            border-radius: 20%;
+            width: 150px;
+            height: 150px;
+            margin-top: -70x;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .team-card .card-title {
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #0056b3;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #007bff;
+        }
+        footer {
+            background: #0056b3;
+            color: white;
+            padding: 20px 0;
+        }
+        footer .social-icons img {
+            width: 32px;
+            height: 32px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        footer .social-icons img:hover {
+            transform: scale(1.2);
+            opacity: 0.8;
+        }
+        #contact {
+            background-color: #e9ecef;
+            padding: 60px 0;
+        }
+        #contact h2 {
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            #home h1 {
+                font-size: 2.5rem;
+            }
+            #home p {
+                font-size: 1rem;
+            }
+            .team-card img {
+                width: 120px;
+                height: 120px;
+                margin-top: -60px;
+            }
+            .container img{
+            width: 400px;
+            height: 100px;
+            margin-top: 20px;
+            margin-bottom: 25px;  
+        }  
+    }
+        
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" tabindex="0">
+
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Tim Sukses</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="text-center">
+    <div class="container ">
+        <h1>Selamat Datang di Portofolio Tim Sukses</h1>
+        <img src="gbr/team.jpg" class="container img" alt="">
+        <p>Tim Sukses adalah tim profesional yang terdiri dari individu-individu berbakat dengan keahlian di berbagai bidang teknologi dan desain. Dipimpin oleh Agus Batubara sebagai Chief Technology Officer (CTO), tim ini memiliki visi untuk mendorong inovasi dan memberikan solusi digital yang efektif. Dengan pengalaman lebih dari 15 tahun dalam transformasi digital, Agus membawa arah strategis dan kepemimpinan yang kuat dalam setiap proyek. Bersama Agus, Naufal berperan sebagai Product Manager yang fokus pada pengembangan produk dan analisis pasar, memastikan setiap produk yang dihasilkan relevan dengan kebutuhan pelanggan dan tren industri. Di sisi desain, Fadhil sebagai Web Designer bertanggung jawab dalam menciptakan antarmuka pengguna yang estetis dan fungsional, menghadirkan pengalaman digital yang mulus dan menarik. Melengkapi tim, Riswan sebagai Graphic Designer membawa keahliannya dalam menciptakan desain visual yang berkesan dan memperkuat identitas merek. Dengan kombinasi keahlian dan semangat kolaborasi, Tim Sukses siap memberikan dampak positif dan membawa setiap proyek ke level berikutnya.</p>
+    </div>
+</section>
+
+
+
+<section id="team">
+    <div class="container">
+        <h2 class="text-center mb-5">Tim Sukses</h2>
+        <div class="row g-4">
+            <div class="col-md-3 col-sm-6">
+                <div class="card team-card text-center">
+                    <img src="gbr/Riswan_039.jpg" class="card-img-top mx-auto" alt="Member 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lord Agus</h5>
+                        <p class="card-text">Chief Technology Officer</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">View Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card team-card text-center">
+                    <img src="gbr/np.jpg" class="card-img-top mx-auto" alt="Member 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Naufal Hok</h5>
+                        <p class="card-text">Product Manager</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">View Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card team-card text-center">
+                    <img src="gbr/fd.jpg" class="card-img-top mx-auto" alt="Member 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Fadhil Godzilla</h5>
+                        <p class="card-text">Web Designer</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">View Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card team-card text-center">
+                    <img src="gbr/ww.jpg" class="card-img-top mx-auto" alt="Member 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Riswandi Moralex</h5>
+                        <p class="card-text">Graphic Designer</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal4">View Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal1Label">Lord Agus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body img">
+                <img src="gbr/Riswan_039.jpg" class="img-fluid rounded-circle d-block mx-auto mb-3" alt="Member 1">
+                <p>
+                    Nama : Agus Batubara <br>
+                    Alamat : Makassar <br>
+                    <br>
+                    Lord Agus adalah seorang Chief Technology Officer (CTO) di salah satu perusahaan teknologi terkemuka di Indonesia. Dengan pengalaman lebih dari 15 tahun di bidang pengembangan perangkat lunak dan transformasi digital, ia dikenal sebagai sosok inovatif yang mampu membawa perubahan strategis dalam perusahaan. Selain menjalankan perannya di level eksekutif, Lord Agus juga aktif sebagai mentor startup dan pembicara dalam berbagai forum teknologi nasional. Kepemimpinannya yang visioner dan pendekatan yang berorientasi pada hasil telah menjadikan Lord Agus sebagai salah satu figur berpengaruh di industri teknologi. Ia lahir di Jakarta pada 15 Maret 1985.</p>
+            </div>
+            <div class="modal-footer">
+                <footer>
+                    <div class="container text-center">
+                        <div class="d-flex justify-content-center gap-3 social-icons">
+                            <a href="https://www.facebook.com/share/1AXmUtPjxo/"><img src="gbr/Sosmed (1).png" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/menre-level-05a269338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="gbr/Sosmed (2).png" alt="LinkedIn"></a>
+                            <a href="https://x.com/?lang=en"><img src="gbr/Sosmed (3).png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/rzwnd_wan/profilecard/?igsh=amtiYml4ZmNpNjY1"><img src="gbr/Sosmed (4).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal2Label">Naufal Hok</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body img">
+                <img src="gbr/np.jpg" class="img-fluid rounded-circle d-block mx-auto mb-3" alt="Member 1">
+                <p>
+                    Nama : Muhammad Naufal Rauf <br>
+                    Alamat : Antang <br>
+                    <br>
+                    Naufal adalah seorang Product Manager di salah satu perusahaan e-commerce terbesar di Indonesia. Dengan pengalaman lebih dari 8 tahun dalam manajemen produk digital dan analisis pasar, ia memiliki reputasi sebagai inovator yang mampu mengembangkan produk yang sesuai dengan kebutuhan pelanggan. Naufal dikenal karena kemampuannya memimpin tim lintas fungsi dan mengelola siklus hidup produk dari konsep hingga peluncuran.  
+                    Di luar pekerjaannya, Naufal sering menjadi pembicara dalam workshop terkait pengembangan produk dan strategi bisnis digital. Komitmennya dalam menciptakan pengalaman pengguna yang maksimal menjadikannya salah satu profesional yang disegani di industri e-commerce. Naufal lahir di Yogyakarta pada 12 April 1992.</p>
+            </div>
+            <div class="modal-footer">
+                <footer>
+                    <div class="container text-center">
+                        <div class="d-flex justify-content-center gap-3 social-icons">
+                            <a href="https://www.facebook.com/share/1AXmUtPjxo/"><img src="gbr/Sosmed (1).png" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/menre-level-05a269338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="gbr/Sosmed (2).png" alt="LinkedIn"></a>
+                            <a href="https://x.com/?lang=en"><img src="gbr/Sosmed (3).png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/rzwnd_wan/profilecard/?igsh=amtiYml4ZmNpNjY1"><img src="gbr/Sosmed (4).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal3Label">Fadhil Godzilla</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body img">
+                <img src="gbr/fd.jpg" class="img-fluid rounded-circle d-block mx-auto mb-3" alt="Member 1">
+                <p>
+                    Nama : Muhammad fadhil Ashilah <br>
+                    Alamat : Moncongloe <br>
+                    <br>
+                    Fadhil adalah seorang Web Designer di salah satu agensi kreatif ternama di Indonesia. Dengan pengalaman lebih dari 6 tahun dalam desain antarmuka dan pengalaman pengguna (UI/UX), Fadhil dikenal karena kemampuannya menciptakan website yang estetis dan fungsional. Setiap karyanya selalu mengedepankan kenyamanan pengguna, menggabungkan elemen visual yang menarik dengan navigasi yang intuitif.  
+
+                    Fadhil aktif mengikuti tren desain terbaru dan sering berkontribusi dalam proyek-proyek kolaboratif bersama desainer lain. Ia juga menjadi mentor dalam komunitas desain lokal, berbagi ilmu dan inspirasi kepada para desainer muda. Dengan dedikasinya dalam mengangkat standar desain digital, Fadhil telah menjadi sosok penting di dunia kreatif. Ia lahir di Sinjai pada 12 Oktober 2005.</p>
+            </div>
+            <div class="modal-footer">
+                <footer>
+                    <div class="container text-center">
+                        <div class="d-flex justify-content-center gap-3 social-icons">
+                            <a href="https://www.facebook.com/share/1AXmUtPjxo/"><img src="gbr/Sosmed (1).png" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/menre-level-05a269338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="gbr/Sosmed (2).png" alt="LinkedIn"></a>
+                            <a href="https://x.com/?lang=en"><img src="gbr/Sosmed (3).png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/rzwnd_wan/profilecard/?igsh=amtiYml4ZmNpNjY1"><img src="gbr/Sosmed (4).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal3Label">Riswandi Moralex</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body img">
+                <img src="gbr/ww.jpg" class="img-fluid rounded-circle d-block mx-auto mb-3" alt="Member 4">
+                <p>
+                    Nama : Riswandi <br>
+                    Alamat : Soppeng <br>
+                    <br>
+                    Riswan adalah seorang Graphic Designer di sebuah perusahaan branding dan media kreatif terkemuka di Indonesia. Dengan pengalaman lebih dari 7 tahun, ia dikenal karena kemampuannya menciptakan desain visual yang kuat dan berkesan. Riswan memiliki spesialisasi dalam desain identitas merek, kemasan produk, dan materi promosi yang membantu klien memperkuat citra perusahaan mereka.  
+
+                    Selain terlibat dalam berbagai proyek besar, Riswan juga aktif mengikuti kompetisi desain dan telah memenangkan beberapa penghargaan di bidangnya. Ia sering diundang untuk memberikan workshop tentang tren desain grafis dan pengembangan portofolio. Kreativitas dan perhatian terhadap detail menjadikan Riswan salah satu desainer grafis yang diperhitungkan dalam industri kreatif. Ia lahir di Soppeng pada 8 Februari 2005.</p>
+            </div>
+            <div class="modal-footer">
+                <footer>
+                    <div class="container text-center">
+                        <div class="d-flex justify-content-center gap-3 social-icons">
+                            <a href="https://www.facebook.com/share/1AXmUtPjxo/"><img src="gbr/Sosmed (1).png" alt="Facebook"></a>
+                            <a href="https://www.linkedin.com/in/menre-level-05a269338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="gbr/Sosmed (2).png" alt="LinkedIn"></a>
+                            <a href="https://x.com/?lang=en"><img src="gbr/Sosmed (3).png" alt="Twitter"></a>
+                            <a href="https://www.instagram.com/rzwnd_wan/profilecard/?igsh=amtiYml4ZmNpNjY1"><img src="gbr/Sosmed (4).png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="contact">
+    <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container text-center">
+        <p>Follow us on:</p>
+        <div class="d-flex justify-content-center gap-3 social-icons">
+            <a href="https://www.facebook.com/share/1AXmUtPjxo/"><img src="gbr/Sosmed (1).png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/menre-level-05a269338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="gbr/Sosmed (2).png" alt="LinkedIn"></a>
+            <a href="https://x.com/?lang=en"><img src="gbr/Sosmed (3).png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/rzwnd_wan/profilecard/?igsh=amtiYml4ZmNpNjY1"><img src="gbr/Sosmed (4).png" alt="Instagram"></a>
+        </div>
+        <p class="mt-3">&copy; 2025 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
